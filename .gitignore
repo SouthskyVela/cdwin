@@ -1,0 +1,5 @@
+*.bak
+*.cdwin.bak
+*.cdwin.tmp
+.DS_Store
+Thumbs.db

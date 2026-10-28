@@ -1,5 +1,7 @@
 # cdwin
 
+[![test](https://github.com/SouthskyVela/cdwin/actions/workflows/test.yml/badge.svg)](https://github.com/SouthskyVela/cdwin/actions/workflows/test.yml)
+
 > 在 WSL 里用 **Windows 路径**直接 `cd` —— 不用再 `/mnt/c/Users/...` 一层层敲。
 
 ```bash
@@ -120,6 +122,8 @@ WSL 默认自动挂载所有盘符。若某个盘不可见，先确认 `ls /mnt/
 ```bash
 bash tests/run.sh      # 在 WSL 里跑全套；在普通 Linux 上自动跳过 /mnt 相关用例
 ```
+
+CI 在 GitHub Actions 上跑语法检查与可移植用例（见 `.github/workflows/test.yml`）。
 
 
 ## License

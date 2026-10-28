@@ -121,7 +121,6 @@ WSL 默认自动挂载所有盘符。若某个盘不可见，先确认 `ls /mnt/
 bash tests/run.sh      # 在 WSL 里跑全套；在普通 Linux 上自动跳过 /mnt 相关用例
 ```
 
-CI 在 GitHub Actions 上跑语法检查与可移植用例（见 `.github/workflows/test.yml`）。
 
 ## License
 
